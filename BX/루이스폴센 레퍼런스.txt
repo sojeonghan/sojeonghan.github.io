@@ -1,0 +1,64 @@
+# main --------------------------------------
+
+메인 상단 이미지 부분(텍스트 올라오면서 이미지 선명해짐) : https://designnas.com/portfolio/bx-site/ohora/
+
+메인 디자이너 가로 스크롤 : https://designnas.com/portfolio/bx-site/logitech/
+
+메인 introduction 구동(텍스트 효과) : https://designnas.com/portfolio/bx-site/huxley/
+
+메인 하단 원 2개, 텍스트 부분(이미지 양쪽으로 벌어지면서 텍스트가 올라옴) : https://soijeong.com/
+
+-----------------------------------------------
+
+
+
+
+# designer -------------------------------------
+
+디자이너 가로 레이아웃 텍스트 효과 : https://chryslerbuilding1930.com/
+
+------------------------------------------------
+
+
+
+
+
+# product --------------------------------------
+
+product 제품 가로 스크롤 : https://designnas.com/portfolio/bx-site/logitech/
+
+product 하단 텍스트 부분(텍스트 아래에서 위로 올라옴) : https://zhenyary.com/workflow
+                                                   https://jams.basicagency.com/s-003/07
+
+https://www.dunderville.se/ (텍스트 위아래에서 돌아감)ㄴ
+
+-----------------------------------------------
+
+
+
+
+
+# brand --------------------------------------
+
+brand 메인 이미지(이미지 작았다가 펴지면서 텍스트 올라옴) : https://www.vwxgolf.com/
+
+brand(가로 스크롤링)
+이미지/텍스트 효과: https://designnas.com/portfolio/bx-site/pamela/about.html
+
+하단 텍스트 부분(텍스트 양옆에서 나타남) : https://nuenofashion.com/
+
+-----------------------------------------------
+
+
+
+# inspiration -------------------------------------
+
+inspiration 2번째 이미지+텍스트 부분(이미지가 아래에서 촤라락) : https://atria.non-linear.studio/institute/
+
+inspiration 3번째 구동 : https://designnas.com/portfolio/bx-site/huxley/gift/gift.html
+
+----------------------------------------------------
+
+
+
+모든 세부 페이지 메인 이미지 부분 : https://designnas.com/portfolio/bx-site/pandora/

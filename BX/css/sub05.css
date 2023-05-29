@@ -1,0 +1,702 @@
+
+
+
+#menu{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    z-index: 99999999;
+}
+
+#menu_left{
+    width: 70px;
+    height: 976px;
+    position: absolute;
+    left: 91px;
+    top: 51px;
+}
+
+#menu_left .menu_close{
+    width: 70px;
+    height: 71px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+#menu_left .menu_hamburger{
+    width: 55px;
+    height: 41px;
+    position: absolute;
+    left: 8px;
+    top: 470px;
+    cursor: pointer;
+}
+
+#menu_left .menu_follow_us{
+    width: 24px;
+    height: 132px;
+    position: absolute;
+    left: 23px;
+    bottom: 0;
+}
+
+#menu_text_container{
+    width: 559px;
+    height: 672px;
+    position: absolute;
+    left: 408px;
+    top: 204px;
+    z-index: 100000;
+}
+
+#menu #menu_text_container .filter_num{
+    filter: grayscale(1);
+    transition: all 0.7s;
+}
+#menu #menu_text_container > div.on .filter_num{
+    filter: grayscale(0);
+}
+#menu #menu_text_container .menu_text_filter{
+    filter: invert(0.7) brightness(1.3);
+    transition: all 0.7s;
+}
+#menu #menu_text_container > div.on .menu_text_filter{
+    filter: invert(0) brightness(1);
+}
+
+#menu_01{
+    width: 386px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#menu_01 .brand_number{
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 17px;
+}
+
+#menu_01 .brand_title{
+    width: 229px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#menu_02{
+    width: 513px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 142px;
+}
+
+#menu_02 .designer_number{
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+#menu_02 .designer_title{
+    width: 356px;
+    height: 78px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#menu_03{
+    width: 557px;
+    height: 87px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+
+#menu_03 .inspiration_number{
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+#menu_03 .inspiration_title{
+    width: 400px;
+    height: 84px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#menu_04{
+    width: 470px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    bottom: 143px;
+}
+
+#menu_04 .product_number{
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 17px;
+
+}
+
+#menu_04 .product_title{
+    width: 313px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#menu_05{
+    width: 331px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#menu_05 .new_number{
+    width: 35px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 17px;
+}
+
+#menu_05 .new_title{
+    width: 174px;
+    height: 63px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#img_rolling{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    background: white;
+    right: 250px;
+    top: 342px;
+    pointer-events: none;
+}
+#img_rolling > div{
+    transition: all 0.7s;
+    opacity: 0;
+}
+#img_rolling > div.on{
+    opacity: 1;
+}
+
+#img_rolling .img_01{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#img_rolling .img_02{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#img_rolling .img_03{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#img_rolling .img_04{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#img_rolling .img_05{
+    width: 789px;
+    height: 354px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+#menu .brand_logo{
+    width: 144px;
+    height: 18px;
+    position: absolute;
+    right: 249px;
+    top: 52px;
+}
+
+
+
+#social_brand{
+    width: 522px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 358px;
+    bottom: 52px;
+}
+#social_brand > div{
+    transition: all 0.5s;
+    filter: invert(0.7);
+}
+#social_brand > div.on{
+    filter: invert(0);
+}
+
+
+
+#social_brand .brand_01{
+    width: 43px;
+    height: 16px;
+    display: flex;
+    right: 358px;
+    bottom: 52px;
+}
+
+#social_brand .brand_02{
+    width: 107px;
+    height: 21px;
+    display: flex;
+}
+
+#social_brand .brand_03{
+    width: 104px;
+    height: 18px;
+    display: flex;
+}
+
+#social_brand .brand_04{
+    width: 49px;
+    height: 22px;
+    display: flex;
+}
+
+
+
+#section01{
+    height: 1030px;
+    background: white;
+}
+
+#se01_gnb{
+    width: 100vw;
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#se01_gnb .se01_gnb_logo{
+    width: 98px;
+    height: 50px;
+    margin-left: 165px;
+}
+
+#se01_gnb .se01_gnb_menu{
+    width: 20px;
+    height: 17px;
+    margin-right: 166px;
+    cursor: pointer;
+}
+
+#se01_gnb .se01_gnb_line{
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    top: 120px;
+}
+
+#se01_main_img{
+    width: 1177px;
+    height: 789px;
+    position: relative;
+    left: 172px;
+    top: 47px;
+}
+
+#se01_main_img .se01_main_img_move {
+    transition: all 1s cubic-bezier(0.6, -0.19, 0, 1.33);
+    transform: scale(1.2);
+}
+
+#se01_main_img .se01_main_img_move.on {
+    transform: scale(1);
+}
+
+#se01_main_img .se01_main_img_ui01{
+    width: 35px;
+    height: 16px;
+    position: absolute;
+    left: 41px;
+    top: 27px;
+}
+
+#se01_main_img .se01_main_img_ui02{
+    width: 156px;
+    height: 24px;
+    position: absolute;
+    left: 88px;
+    top: 27px;
+}
+
+#section01 .se01_name01{
+    width: 317px;
+    height: 99px;
+    position: absolute;
+    right: 360px;
+    top: 366px;
+    overflow: hidden;
+}
+
+#section01 .se01_name01 img{
+    transition: all 1s;
+    transform: translateY(100%);
+}
+
+#section01 .se01_name01.on img{
+    transform: translateY(0);
+}
+
+#section01 .se01_name02{
+    width: 484px;
+    height: 102px;
+    position: absolute;
+    right: 144px;
+    top: 502px;
+    overflow: hidden;
+}
+
+#section01 .se01_name02 img{
+    transition: all 1s;
+    transform: translateY(100%);
+}
+
+#section01 .se01_name02.on img{
+    transform: translateY(0);
+}
+
+
+#section01 .se01_sub_name{
+    width: 520px;
+    height: 33px;
+    position: absolute;
+    right: 129px;
+    bottom: 184px;
+}
+
+#section01 .se01_sub_name img{
+    opacity: 0;
+    transition: all 1s 0.25s;
+    transform: translateX(-100%);
+}
+
+#section01 .se01_sub_name.on img{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+#section02{
+    height: 2150px;
+    background: black;
+}
+
+#se02_img01_container{
+    width: 595px;
+    height: 782px;
+    position: absolute;
+    left: 287px;
+    top: 197px;
+}
+
+#se02_img01_container .se02_img01_deco{
+    width: 145px;
+    height: 161px;
+    position: absolute;
+    left: 0;
+    top: 137px;
+    opacity: 0;
+}
+
+#se02_img01_container .se02_img01{
+    width: 466px;
+    height: 631px;
+    position: absolute;
+    right: 0;
+    top: 43px;
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: all .8s;
+}
+
+#se02_img01_container .se02_img01_text{
+    width: 438px;
+    height: 141px;
+    position: absolute;
+    right: 28px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#se02_img01_container .se02_img01_text img{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .8s;
+}
+
+#se02_img01_container .se02_img01_ui{
+    width: 76px;
+    height: 13px;
+    position: absolute;
+    left: 129px;
+    top: 0;
+    opacity: 0;
+}
+
+
+#se02_img02_container{
+    width: 576px;
+    height: 739px;
+    position: absolute;
+    right: 309px;
+    top: 461px;
+}
+
+#se02_img02_container .se02_img02_deco{
+    width: 100px;
+    height: 161px;
+    position: absolute;
+    right: 18px;
+    top: 235px;
+    opacity: 0;
+}
+
+#se02_img02_container .se02_img02{
+    width: 466px;
+    height: 631px;
+    position: absolute;
+    left: 3px;
+    top: 0;
+    opacity: 0;
+    transform: translateX(70px);
+    transition: all .8s;
+}
+
+#se02_img02_container .se02_img02_text{
+    width: 369px;
+    height: 148px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#se02_img02_container .se02_img02_text img{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .8s;
+}
+
+#se02_img02_container .se02_img02_ui{
+    width: 76px;
+    height: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 134px;
+    opacity: 0;
+}
+
+
+#se02_img03_container{
+    width: 658px;
+    height: 741px;
+    position: absolute;
+    left: 224px;
+    bottom: 351px;
+}
+
+#se02_img03_container .se02_img03_deco{
+    width: 229px;
+    height: 161px;
+    position: absolute;
+    left: 0;
+    top: 234px;
+    opacity: 0;
+}
+
+#se02_img03_container .se02_img03{
+    width: 466px;
+    height: 630px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: all .8s;
+}
+
+#se02_img03_container .se02_img03_text{
+    width: 427px;
+    height: 147px;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#se02_img03_container .se02_img03_text img{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .8s .2s;
+}
+
+#se02_img03_container .se02_img03_ui{
+    width: 76px;
+    height: 13px;
+    position: absolute;
+    left: 88px;
+    bottom: 183px;
+    opacity: 0;
+}
+
+#se02_img04_container{
+    width: 509px;
+    height: 741px;
+    position: absolute;
+    right: 416px;
+    bottom: 130px;
+}
+
+#se02_img04_container .se02_img04{
+    width: 466px;
+    height: 630px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateX(70px);
+    transition: all .8s;
+}
+
+#se02_img04_container .se02_img04_text{
+    width: 433px;
+    height: 224px;
+    position: absolute;
+    left: 42px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#se02_img04_container .se02_img04_text img{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .8s .2s;
+}
+
+#se02_img04_container .se02_img04_ui{
+    width: 13px;
+    height: 75px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#section03{
+    height: 493px;
+}
+
+#se03_footer{
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

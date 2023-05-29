@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뭘로할까</title>
+</head>
+<style>
+    @font-face {
+  font-family: "Ethereal";
+  src: url("./public/Ethereal-Thin.otf") format("truetype");
+  font-weight: normal;
+    }
+    @font-face {
+  font-family: "DINPro";
+  src: url("./public/DINPro-Regular.otf") format("truetype");
+  font-weight: normal;
+    }
+    *{
+        padding: 0px;
+        border: none;
+    }
+    body {
+        margin: 0px;
+        width: 100%;
+        height: 1080px;
+    background-image: url("./public/bg.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    }
+
+    .mainSection{
+        width: calc(100% - 932px);
+    }
+    .side1{
+        width: 468px; 
+    }
+    .side2{
+        width: 464px;
+    }
+    #bx{
+        height: 464px;
+        width: 468px;
+        background-image: url("public/bx_before.png");
+    }
+    #bx:hover{
+        background-image: url("public/bx_after.png");
+    }
+    #ux{
+        margin-top: 104px;
+        margin-bottom: 50px;
+        width: 464px;
+        height: 657px;
+        background-image: url("public/ux_before.png");
+        margin-right: 0px;
+    }
+    #ux:hover{
+        background-image: url("public/ux_after.png");
+    }
+    #butterflyLeft{
+        width: 500px;
+        margin: 80px 0px 180px;
+    }
+    #butterflyRight{
+        width: 150px;
+        margin: 50px 50px;
+        margin-left: 200px;
+    }
+    #mainTitle{
+        color: #59524b;
+        line-height: 150px;
+        font-family: Ethereal;
+        font-size: 110px;
+
+    }
+    #mainSub{
+        color: #59524b;
+        font-family: DINPro;
+        font-size: 20px;
+    }
+    #sideSub{
+        color: #59524b;
+        font-family: DINPro;
+        font-size: 18px;
+    }
+</style>
+<body>
+    <section class="side1">
+        <img src="./public/butterfly_01.png" alt="" id="butterflyLeft">
+       <a href="./BX/index.html"><div id="bx"></div>
+    </a> 
+    </section>
+    <section class="mainSection">
+      
+        <div style="text-align:  center; margin-top: 20vh;">
+            <img src="./public/point.png" alt="" style="margin-bottom: 50px;">
+            <br>
+            <span id="mainTitle">Which<br> one are you<br>going to watch?</span>
+            <br>    
+            <br>    
+            <span id="mainSub"></span> Han So Jeong Portfolio</span>
+        </div>
+    </section>
+    <section class="side2">
+       
+        <a href="./Mobile/index.html"><div id="ux"></div></a>
+        <span id="sideSub">I will become a designer<br>who flies freely like a butterfly.</span>
+        <img src="./public/butterfly_02.png" alt="" id="butterflyRight">
+        
+    </section>
+</body>
+</html>
